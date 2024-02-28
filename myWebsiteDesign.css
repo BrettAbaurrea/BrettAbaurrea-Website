@@ -42,7 +42,7 @@ li a{
     column-gap: 5px;
     padding-top: 25px;
 }
-img {
+img { /*somehow make this just the headshot idk*/
     width: 365px;
     height: 550px;
 }

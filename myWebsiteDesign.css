@@ -3,10 +3,16 @@
     color: #87ceeb;
 }
 
+
 h1{
     font-family: monospace;
-    text-align: center;
     font-size: 100;
+}
+
+.navBar {
+    position: sticky;
+    width: 100%;
+    text-align: center;
 }
 
 ul {
@@ -19,6 +25,8 @@ ul {
 li{
     float: left;
 }
+/*
+*/
 
 li a{
     display: block;
@@ -26,4 +34,18 @@ li a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+.homeBody {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1.75fr 0.15fr;
+    column-gap: 5px;
+    padding-top: 25px;
+}
+img {
+    width: 365px;
+    height: 550px;
+}
+.homeBodyText {
+    font-size: 22px;
 }
